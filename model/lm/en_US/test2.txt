@@ -1,0 +1,9 @@
+vinson
+turn on
+light
+turn off
+switch on
+switch off
+backward
+right
+spin

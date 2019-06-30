@@ -1,0 +1,11 @@
+take off
+land
+turn left
+turn right
+forward
+backward
+spin left
+spin right
+up
+down
+hover
