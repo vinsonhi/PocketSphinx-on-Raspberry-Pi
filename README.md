@@ -6,8 +6,11 @@
 2.	  Propose a language model trainning method based on the 2-gram and 3-gram model, and use voice signals from different distance to train the acoustic model, which greatly improves the recognition accuracy of Pocketsphinx on the Raspberry Pi. It can achieve a recognition rate of nearly 90% within 2m, and the probability of 99.9% will not be triggered by the chat, which meets the requirement of smart home.
 
 before running the task, you need to insert the following command
+  
   export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+  
   export LD_LIBRARY_PATH=/usr/local/lib
 
 running command:
+  
   pocketsphinx_continuous -lm /home/pi/pocketsphinx-0.7/model/lm/en_US/9935.lm -dict /home/pi/pocketsphinx-0.7/model/lm/en_US/9935.dic -hmm /home/pi/pocketsphinx-0.7/model/hmm/en_US/cmu-adapt/  >> test.txt
